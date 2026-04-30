@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(pizza-tower-pizza-face.gif);
+}
+
+.landing-pai{
+    width: 900px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+
+    box-shadow: 15px 15px 20px rgb(255, 255, 255);
+}
+
+.lado-esquerdo{
+    width: 40%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lado-direito{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+}
